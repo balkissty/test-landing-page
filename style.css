@@ -3,7 +3,11 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.footer-logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 .header {
     background: #EBFCFF;
 }
@@ -426,7 +430,6 @@ body{
 }
 .avatar {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .avatar img {
@@ -447,7 +450,7 @@ body{
     background: #FDF0E7;
 }
 .feedback-clients {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     padding: 35px 16px;
     border-radius: 24px;
 }
@@ -462,6 +465,9 @@ body{
 }
 .quote img {
     margin-right: 16px;
+}
+.quote-description {
+    max-width: 266px;
 }
 .feedback-name b {
     font-family: 'Rubik', sans-serif;
@@ -495,5 +501,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 20px;
 }

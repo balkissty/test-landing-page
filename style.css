@@ -105,6 +105,14 @@ body{
     right: 0;
     top: 100px;
 }
+
+.banner-image-mini-man {
+    position: absolute;
+}
+.banner-image-mini-man {
+    position: absolute;
+    left: 50px;
+}
 .banner-buttons {
     display: flex;
     font-size: 15px;
@@ -257,13 +265,13 @@ body{
     justify-content: center;
     text-align: center;
     margin-top: 64px;
+    margin-bottom: 57px;
 }
 .reason-header{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 20px;
     color: #ED6710;
     margin-bottom: 29px;
 }
@@ -273,7 +281,69 @@ body{
     font-weight: 500;
     max-width: 636px;
     font-size: 32px;
-    line-height: 38px;
+    text-transform: capitalize;
+    color: #50A0AF;
+}
+.resources {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.big-ellipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #50A0AF;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.resources {
+    display: flex;
+    margin-bottom: 54px;
+    padding: 0 180px;
+}
+.resources-options {
+    display: grid;
+    place-items: center;
+    width: 33.3333333%;
+}
+.resources-options p{
+    font-family: 'Crimson Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ED6710;
+}
+.resources-options div {
+   max-width: 288px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #636363;
+}
+.budget {
+    background: #EAF8FA;
+    border-radius: 40px;
+    margin: 0 180px;
+    padding: 64px 81px 41px 81px;
+}
+.budget-fit {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #ED6710;
+    margin-bottom: 8px;
+}
+.budget-choose {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
     text-transform: capitalize;
     color: #50A0AF;
 }

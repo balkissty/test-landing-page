@@ -479,3 +479,21 @@ body{
     display: flex;
     gap: 12px;
 }
+footer {
+    background: #50A0AF;
+    color: #fff;
+    padding: 100px 180px;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 22px;
+}
+.footer-links-extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}

@@ -181,4 +181,44 @@ body{
 .offers-arrow {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.offers-arrow-back {
+    background: #ED6710;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.offers-arrow-forth {
+    background: #fff;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.card img {
+    width: 100%;
+}
+.card-container {
+    padding: 14px 32px;
+}
+.card-container b{
+    color: #ED6710;
+}
+
+.card-container p {
+    color: #636363;
 }

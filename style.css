@@ -208,17 +208,72 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
+    width: 30%;
 }
 .card img {
-    width: 100%;
+    width:100%;
+    height: 160px;
 }
 .card-container {
     padding: 14px 32px;
 }
 .card-container b{
     color: #ED6710;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .card-container p {
     color: #636363;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.packages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+}
+.ellipses {
+    display: flex;
+    gap: 12px;
+    margin-left: 150px;
+}
+
+
+
+.packages-button button{
+    background: #ED6710;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 20px;
+}
+.reason{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 64px;
+}
+.reason-header{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #ED6710;
+    margin-bottom: 29px;
+}
+.reason-description{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 636px;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #50A0AF;
 }

@@ -421,26 +421,35 @@ body{
 }
 .feedbacks {
     padding: 100px 180px;
+    background: #EBFCFF;
 
 }
 .avatar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .avatar img {
-    margin-right: 30px;
+    margin-right: 10px;
 }
+
 .feedback-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 43px;
 }
-.feedback-clients {
-    padding: 21px 16px;
+.men{
     background: #ffffff;
+    
+}
+.middle {
+    background: #FDF0E7;
+}
+.feedback-clients {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 35px 16px;
+    border-radius: 24px;
 }
 .quote {
     display: flex;
@@ -453,4 +462,20 @@ body{
 }
 .quote img {
     margin-right: 16px;
+}
+.feedback-name b {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #50A0AF;
+}
+.ellipses-down {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 12px;
 }

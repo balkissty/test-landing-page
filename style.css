@@ -45,7 +45,7 @@ body{
     font-size: 15px;
     color: #fff;
     text-transform: uppercase;
-    font-weight: 700px;
+    font-weight: bold;
 }
 .notice-button {
     margin-top: 20px;
@@ -59,7 +59,7 @@ body{
     background: #ED6710;
     border: none;
     border-radius: 33px;
-    padding: 5px 30px;
+    padding: 2px 30px;
 }
 .notice-text{ 
     display: flex;
@@ -108,14 +108,17 @@ body{
 
 .banner-image-mini-man {
     position: absolute;
+    right: 231px;
 }
-.banner-image-mini-man {
+.banner-image-mini-woman {
     position: absolute;
-    left: 50px;
+    right: 315px;
+    top: 38px;
 }
 .banner-buttons {
     display: flex;
     font-size: 15px;
+    
 }
 .first-banner-button {
     background: #ED6710;
@@ -123,6 +126,7 @@ body{
     color: #fff;
     padding: 12px 20px;
     font-size: 15px;
+    font-weight: bold;
 }
 .second-banner-button {
     color: #ED6710;
@@ -130,6 +134,7 @@ body{
     background: none;
     margin-left: 20px;
     font-size: 15px;
+    font-weight: bold;
 }
 .clients {
     padding: 100px 180px;
@@ -393,4 +398,59 @@ body{
     margin-top: 32px;
     font-weight: 700;
 
+}
+.faqs {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 180px;
+}
+.questions {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #1A1A1A;
+}
+.questions img {
+    margin-right: 11px;
+}
+.feedbacks {
+    padding: 100px 180px;
+
+}
+.avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar img {
+    margin-right: 30px;
+}
+.feedback-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 43px;
+}
+.feedback-clients {
+    padding: 21px 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.quote {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 29px;
+}
+.quote p{
+    max-width: 266px;
+}
+.quote img {
+    margin-right: 16px;
 }

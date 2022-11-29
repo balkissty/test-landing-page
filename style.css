@@ -346,4 +346,51 @@ body{
     font-size: 32px;
     text-transform: capitalize;
     color: #50A0AF;
+    margin-bottom: 54px;
+
+}
+.business {
+    display: flex;
+    gap: 40px;
+}
+.business-scale {
+    display: grid;
+    gap: 20px;
+    background: #fff;
+    padding: 24px 77px;
+    border-radius: 16px;
+}
+.business-scale p{
+    font-family: 'Crimson Pro', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #218698;
+    text-transform: capitalize;
+    margin: 0;
+}
+.business-scale b {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #4D4D4D;
+}
+.business-scale .explore {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #ED6710;
+}
+.business-button {
+    display: flex;
+    justify-content: right;
+    margin-top: 32px;
+    font-weight: 700;
+
 }

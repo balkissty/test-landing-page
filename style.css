@@ -4,6 +4,16 @@ body{
     margin: 0;
     padding: 0;
 }
+.hamburger {
+    width:30px;
+    height: 30px;
+    display: none
+}
+@media screen and (max-width: 1000px) {
+    .hamburger {
+        display: flex;
+    }
+  }
 .footer-logo {
     display: flex;
     justify-content: left;
@@ -31,9 +41,24 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
-.logo {
+@media screen and (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+  }
+.logo-desktop {
     margin-right: 80px;
 }
+
+.logo-mobile {
+    display: none;
+    align-items: center;
+}
+@media screen and (max-width: 1000px) {
+    .logo-mobile {
+        display: flex;
+    }
+  }
 .menu-items {
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +82,13 @@ body{
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
+    display: flex;
 }
+@media screen and (max-width: 1000px) {
+    .login-button {
+        display: none;
+    }
+  }
 .notice-button {
     margin-top: 20px;
 }
@@ -72,14 +103,17 @@ body{
     border-radius: 33px;
     padding: 2px 30px;
 }
+.close-notice{
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    .close-notice {
+        display: none;
+    }
+  }
 @media screen and (max-width: 768px) {
     .notice-button button {
         font-size: 12px;
-    }
-  }
-  @media screen and (max-width: 500px) {
-    .notice-button button{
-        display: none;
     }
   }
 .notice-text{ 
@@ -106,12 +140,10 @@ body{
     font-size: 50px;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
-    line-height: 65.18px;
+    color: #218698;
 
 }
-.banner-text .banner-text-header{
-    color: #218698;
-}
+
 .banner-text .banner-text-header span {
     color: #ED6710;
 }
@@ -597,8 +629,12 @@ body{
 .footer-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
 }
+@media screen and (max-width: 1310px) {
+    .footer-content {
+      gap: 50px
+    }
+  }
 .footer-items{
     flex: 0 0 25%;
     font-family: 'Rubik', sans-serif;
@@ -613,11 +649,14 @@ body{
     font-size: 17px;
 }
 
+.footer-form {
+    display: flex;
+    flex-wrap: wrap;
+}
 .footer-form input{
     padding: 10px;
     border-radius: 5px 0 0 5px;
     border: none;
-    position: relative;
 }
 .footer-form button {
     padding: 10px;
@@ -625,9 +664,13 @@ body{
     border: none;
     border-radius: 0 5px 5px 0;
     color: #fff;
-    position: absolute;
 
 }
+@media screen and (max-width: 768px) {
+    .footer-form button {
+        margin-top: 10px;
+    }
+  }
 .footer-social-links {
     display: flex;
     justify-content: space-between;

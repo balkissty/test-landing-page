@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=Inter&family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
@@ -35,11 +36,28 @@
                         <img src="images/logo-icon.png" alt="logo Icon">
                         <img src="images/logo.png" alt="Logo text"/>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hamburger">
+                    <svg onclick="myFunction()" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hamburger">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
-                      
                 </nav>
+                
+                <header class="mobile-header" id="mobile-header">
+                    <!-- Menu -->
+                    <nav class="nav">
+                        <ul class="mobile-menu">
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </nav>
+                    <!--Login button-->
+                    <div class="login-button-mobile">
+                        <button>Login</button>
+                    </div>
+                </header>
+
                 <div class="notice-button">
                     <button>
                         <p class="notice-text"> <img src="images/info-icon.png" alt=""> <span>Find out about the newly updated resources.<span class="check">Check out</span></span> </p>

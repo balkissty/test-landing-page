@@ -10,11 +10,39 @@ body{
     height: 30px;
     display: none
 }
+.mobile-hamburger{
+    width:30px;
+    height: 30px;
+}
 @media screen and (max-width: 1000px) {
     .hamburger {
         display: flex;
     }
   }
+
+.navbar-mobile {
+    display: flex;
+  }
+.mobile-menu {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+  }
+  .mobile-menu a{
+    text-decoration: none;
+    color: #636363;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 600px;
+  }
+  .mobile-header{
+    display: none;
+  }
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+}
 .footer-logo {
     display: flex;
     justify-content: left;
@@ -91,6 +119,17 @@ body{
         display: none;
     }
   }
+.login-button-mobile button{
+    background-color: #ED6710;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+}
 .notice-button {
     margin-top: 20px;
 }

@@ -3,6 +3,7 @@ body{
     background: #ffffff;
     margin: 0;
     padding: 0;
+    
 }
 .hamburger {
     width:30px;
@@ -21,6 +22,7 @@ body{
 }
 .header {
     background: #EBFCFF;
+    overflow-x: hidden;
 }
 .header-content{
     padding: 10px 0;
@@ -141,9 +143,12 @@ body{
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     color: #218698;
-
 }
-
+@media screen and (max-width: 768px) {
+    .banner-text .banner-text-header {
+        margin: 0;
+    }
+  }
 .banner-text .banner-text-header span {
     color: #ED6710;
 }
@@ -158,13 +163,13 @@ body{
     right: 0;
     top: 100px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .banner-image {
         display: none;
     }
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 .banner-image-mini {
     display: none;
 }
@@ -245,7 +250,11 @@ body{
     border-radius: 40px;
     
 }
-
+@media screen and (max-width: 500px) {
+    .offers {
+        width:auto;
+    }
+  }
 .offers-title {
     display: flex;
     flex-wrap: wrap;
@@ -427,6 +436,11 @@ body{
     margin-left: auto;
     padding: 64px;
 }
+@media screen and (max-width: 500px) {
+    .budget {
+        width:auto;
+    }
+  }
 .budget-fit {
     font-family: 'Rubik', sans-serif;
     font-style: normal;

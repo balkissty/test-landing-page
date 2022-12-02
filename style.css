@@ -50,7 +50,7 @@ body{
 }
 .header {
     background: #EBFCFF;
-    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .header-content{
     padding: 10px 0;
